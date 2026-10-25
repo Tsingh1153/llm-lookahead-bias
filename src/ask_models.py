@@ -1,37 +1,53 @@
 import sys
+import time
 import pandas as pd
 import ollama
+import json
 
 MODELS = ["llama3:8b", "llama3.1:8b"]
+SCHEMA = {
+    "type": "object",
+    "properties": {"answer": {"type": "string", "enum": ["UP", "DOWN"]}},
+    "required": ["answer"],
+}
+TEST = "--test" in sys.argv
 
 df = pd.read_csv("data/ground_truth.csv")
 
 #test
-if "--test" in sys.argv:
+if TEST:
     df = df.sample(40, random_state=42)
 
 def ask(model, ticker, month):
     date = pd.to_datetime(month).strftime("%B %Y")
-    prompt = f"Was {ticker} stock up or down in {date}? Answer with one word: UP or DOWN."
+    prompt = (f"Was {ticker} stock up or down in {date}?"
+             "Give your best guess. Respond in JSON.")
     reply = ollama.chat(
         model=model,
         messages=[{"role": "user", "content": prompt}],
-        options={"temperature": 0, "num_predict":5},
+        format=SCHEMA,
+        options={"temperature": 0, "num_predict":10},
     )
-    text = reply["message"]["content"].strip().upper()
-    if text.startswith("UP"):
-        return "UP"
-    if text.startswith("DOWN"):
-        return "DOWN"
-    return "UNCLEAR"
-
+    raw = reply["message"]["content"]
+    try:
+        return json.loads(raw)["answer"],raw
+    except (json.JSONDecodeError, KeyError):
+        return "UNCLEAR", raw
+        
+start = time.time()
 for model in MODELS:
-    answers = []
+    labels, raws = [], []
     for i, row in enumerate(df.itertuples()):
-        answers.append(ask(model, row.ticker, row.month))
+        label, raw = ask(model, row.ticker, row.month)
+        labels.append(label)
+        raws.append(raw)
         if i % 100 == 0:
             print(model, i, "/", len(df))
-    df[model] = answers
+    df[model] = labels
+    df[model + "_raw"] = raws
 
-df.to_csv("results/predictions.csv", index=False)
-print(df.head(10))
+out = "results/test_predictions.csv" if TEST else "results/predictions.csv"
+df.to_csv(out, index=False)
+
+print(df[MODELS].apply(lambda col: col.value_counts()))
+print(f"Took {time.time() - start:.0f} seconds")

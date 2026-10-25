@@ -31,3 +31,25 @@
 - Decision: switch test to random sample of 40 (random_state=42);
   count UP/DOWN per model before running the full set
 - Idea for later: swap word order in prompt ("DOWN or UP") as a robustness check
+
+## 2026-10-21 — Query test 2 (Phase 3)
+- Random sample of 40 rows (random_state=42)
+- New finding: UNCLEAR answers cluster on recent dates
+  - Both models: UNCLEAR on 2024–2025 dates
+  - llama3.1 also UNCLEAR on several 2023 dates where llama3 still answered UP
+  - 2021 dates answered normally
+- Problem: refusals cluster after the cutoff → confound.
+  Counting UNCLEAR as wrong would fake a look-ahead effect;
+  dropping them would remove and skew post-cutoff data.
+- Decision: prompt now asks for a best guess; save raw replies;
+  track refusal rate separately as its own result.
+  
+  ## 2026-10-22 — Raw replies for UNCLEAR
+- They are true refusals, not parsing failures:
+  - llama3:8b: "I'm a large language model, I don't..."
+  - llama3.1:8b: "I'm unsure."
+- "Best guess" wording not enough to prevent refusals
+- Decision: use Ollama structured outputs (JSON schema, enum UP/DOWN)
+  → constrained decoding makes refusal impossible; model still chooses the answer
+- Trade-off: lose refusal signal in main run → measure refusal rate
+  separately as a side result
