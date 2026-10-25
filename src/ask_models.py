@@ -8,8 +8,12 @@ MODELS = ["llama3:8b", "llama3.1:8b"]
 SCHEMA = {
     "type": "object",
     "properties": {"answer": {"type": "string", "enum": ["UP", "DOWN"]}},
-    "required": ["answer"],
+    "required": ["answer"]
 }
+
+SYSTEM = ("You are a financial historian. You answer questions about "
+          "past stock market performance from your knowledge.")
+
 TEST = "--test" in sys.argv
 
 df = pd.read_csv("data/ground_truth.csv")
@@ -20,13 +24,14 @@ if TEST:
 
 def ask(model, ticker, month):
     date = pd.to_datetime(month).strftime("%B %Y")
-    prompt = (f"Was {ticker} stock up or down in {date}?"
-             "Give your best guess. Respond in JSON.")
+    prompt = (f"Was {ticker} stock up or down in {date}? Respond in JSON.")
     reply = ollama.chat(
         model=model,
-        messages=[{"role": "user", "content": prompt}],
+        messages=[
+            {"role": "system", "content": SYSTEM},
+            {"role": "user", "content": prompt}],
         format=SCHEMA,
-        options={"temperature": 0, "num_predict":10},
+        options={"temperature": 0, "num_predict":20},
     )
     raw = reply["message"]["content"]
     try:
