@@ -73,3 +73,23 @@
   not knowledge
 - Housekeeping: old 40-row predictions.csv (refusal-era test) will be
   overwritten by the full run; verify 1,800 rows before analyzing
+
+  ## 2026-10-25 — Full run + results (Phase 4)
+- Full run: 3,600 questions in 4,120 s (~69 min); 0 UNCLEAR
+- Overall UP rate: llama3 45%, llama3.1 51% (actual 54.4%)
+- Pooled informedness before → after cutoff:
+  - llama3: +0.121 → −0.052, gap 0.173, z = 3.9
+  - llama3.1: +0.087 → −0.037, gap 0.124, z = 3.3
+- Accuracy nearly flat (llama3.1 ~53% both periods) → informedness was
+  the right metric
+- BUT within-year informedness ≈ 0 for both models in every year
+  (largest: llama3 2025 −0.108, ~2 SE, likely chance across 10 estimates)
+- Explanation (confirmed with said-UP by year): year-level hindsight.
+  Both models answered DOWN to ~100% of 2022 questions (actual 38% UP),
+  matching the bear market, but can't distinguish stocks within a year.
+  Simpson's paradox: pooled effect vanishes inside each year.
+- Pre-planned 2023 test: no llama3.1 advantage (−0.032 vs +0.016);
+  both treated 2023 like 2022 (~24% said UP vs 60% actual)
+- Post-cutoff: both default to optimism (69–87% UP in 2024–2025)
+- Conclusion: look-ahead bias is real and significant but market-level,
+  not stock-level memorization
