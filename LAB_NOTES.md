@@ -43,7 +43,7 @@
   dropping them would remove and skew post-cutoff data.
 - Decision: prompt now asks for a best guess; save raw replies;
   track refusal rate separately as its own result.
-  
+
   ## 2026-10-22 — Raw replies for UNCLEAR
 - They are true refusals, not parsing failures:
   - llama3:8b: "I'm a large language model, I don't..."
@@ -53,3 +53,23 @@
   → constrained decoding makes refusal impossible; model still chooses the answer
 - Trade-off: lose refusal signal in main run → measure refusal rate
   separately as a side result
+
+  ## 2026-10-25 — Analysis script (Phase 4 setup)
+- Wrote src/analyze.py:
+  - Splits each model's answers into before/after its training cutoff
+    (llama3: <= 2023-03, llama3.1: <= 2023-12)
+  - Reports n, said_up (overall lean), accuracy, and informedness per period
+  - Informedness = TPR − FPR (also called Youden's J):
+    P(says UP | actually UP) − P(says UP | actually DOWN)
+    → 0 for no knowledge regardless of lean; positive = answers track reality
+  - Chart: informedness by year for both models, with cutoff lines
+- Debugged on the 40-row test sample: runs, saves summary.csv and chart
+- Test-sample numbers NOT interpreted: ~8 questions per year → pure noise
+- Noise threshold for full run: before/after informedness gaps under
+  ~6–7 points (0.06–0.07) may be random
+- Key comparison planned: 2023 — llama3.1 trained on it, llama3 did not
+- Observation from test sample: the two models agree on most answers,
+  including 2024–2025 dates neither saw → shared family habits,
+  not knowledge
+- Housekeeping: old 40-row predictions.csv (refusal-era test) will be
+  overwritten by the full run; verify 1,800 rows before analyzing

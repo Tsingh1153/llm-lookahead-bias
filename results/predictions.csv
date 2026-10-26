@@ -1,41 +1,3381 @@
 month,ticker,return,actual,llama3:8b,llama3:8b_raw,llama3.1:8b,llama3.1:8b_raw
-2025-06,ADBE,-0.0679611450624184,DOWN,UNCLEAR,"I'm a large language model, I don't",UNCLEAR,I'm unsure.
-2023-08,KO,-0.033909142490143,DOWN,DOWN,DOWN,DOWN,DOWN
-2023-05,XOM,-0.1290630921189911,DOWN,DOWN,DOWN,DOWN,DOWN
-2021-06,JPM,-0.052971069006761,DOWN,UP,UP,UP,UP
-2024-07,JNJ,0.0799808348818476,UP,UNCLEAR,"I'm a large language model, I don't",UNCLEAR,I'm unsure.
-2021-03,INTC,0.0529780974409175,UP,UP,UP,UP,UP
-2021-09,DIS,-0.0669056068922007,DOWN,UP,UP,DOWN,DOWN
-2021-11,PEP,-0.0112625505121365,DOWN,UP,UP,DOWN,DOWN
-2025-08,HD,0.1068270097443817,UP,UNCLEAR,I'm afraid I'm unsure!,UNCLEAR,I'm unsure.
-2023-10,MA,-0.0480272695530149,DOWN,DOWN,DOWN,UNCLEAR,I'm unsure.
-2025-08,JPM,0.0174859082208753,UP,UNCLEAR,"I'm a large language model, I don't",UNCLEAR,I'm unsure.
-2023-07,HD,0.0746847172770575,UP,DOWN,DOWN,DOWN,DOWN
-2024-05,TSLA,-0.028371873542535,DOWN,UNCLEAR,"I'm a large language model, I don't",UNCLEAR,I'm unsure.
-2023-07,ADBE,0.116934894001357,UP,DOWN,DOWN,DOWN,DOWN
-2022-08,ORCL,-0.0474048118804372,DOWN,DOWN,DOWN,DOWN,DOWN
-2024-07,KO,0.0485467231118235,UP,UNCLEAR,"I'm a large language model, I don't",UNCLEAR,I'm unsure.
-2022-07,MA,0.1231528205048688,UP,DOWN,DOWN,DOWN,DOWN
-2023-12,JNJ,0.0134491006220396,UP,DOWN,DOWN,UNCLEAR,"I'm unsure, but... UP"
-2022-06,NKE,-0.1379620018084367,DOWN,UP,UP,DOWN,DOWN
-2025-10,HD,-0.0631802735906595,DOWN,UNCLEAR,"I'm a large language model, I don't",UNCLEAR,I'm unsure.
-2023-01,ADBE,0.1004665191252891,UP,UP,UP,DOWN,DOWN
-2022-07,ORCL,0.1190511692492424,UP,DOWN,DOWN,DOWN,DOWN
-2022-06,WMT,-0.054808059345624,DOWN,UP,UP,DOWN,DOWN
-2024-06,PFE,-0.023726365919684,DOWN,UNCLEAR,"I'm a large language model, I don't",UNCLEAR,I'm unsure.
-2022-05,MCD,0.012241015591853,UP,UP,UP,DOWN,DOWN
-2022-10,NVDA,0.1118708154629612,UP,DOWN,DOWN,DOWN,DOWN
-2022-12,TSLA,-0.3673343490707852,DOWN,DOWN,DOWN,DOWN,DOWN
-2022-06,NVDA,-0.1879709057833027,DOWN,DOWN,DOWN,DOWN,DOWN
-2025-05,KO,-0.006202814289929,DOWN,UNCLEAR,I'm afraid I'm unsure!,UNCLEAR,I'm unsure.
-2025-05,PEP,-0.0304617518268855,DOWN,UNCLEAR,I'm afraid I'm unsure!,UNCLEAR,I'm unsure.
-2025-10,KO,0.0389021958303621,UP,UNCLEAR,"I'm a large language model, I don't",UNCLEAR,I'm unsure.
-2024-08,GOOGL,-0.0475689976498041,DOWN,UNCLEAR,"I'm a large language model, I don't",UNCLEAR,I'm unsure.
-2022-04,ORCL,-0.1093058548049887,DOWN,UP,UP,DOWN,DOWN
-2024-09,PG,0.0096770719881738,UP,UNCLEAR,"I'm a large language model, I don't",UNCLEAR,I'm unsure.
-2021-10,NKE,0.1518969836299268,UP,UP,UP,DOWN,DOWN
-2025-05,ADBE,0.1069656626390811,UP,UNCLEAR,"I'm a large language model, I don't",UNCLEAR,I'm unsure.
-2025-07,KO,-0.0404240926610605,DOWN,UNCLEAR,I'm afraid I'm unsure!,UNCLEAR,I'm unsure.
-2022-09,NKE,-0.2169210466700497,DOWN,DOWN,DOWN,DOWN,DOWN
-2024-12,MSFT,-0.004628532723784,DOWN,UNCLEAR,"I'm a large language model, I don't",UNCLEAR,I'm unsure.
-2022-11,AAPL,-0.0330277446446903,DOWN,DOWN,DOWN,DOWN,DOWN
+2021-01,AAPL,-0.0055016875466484,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-01,ADBE,-0.082680169773709,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-01,AMD,-0.0661868908016587,DOWN,UP,"{
+""answer"": ""UP""
+}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-01,AMZN,-0.0155760122365283,DOWN,UP,"{
+""answer"": ""UP""
+}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-01,BAC,-0.0217750537567694,DOWN,DOWN,"{
+""answer"": ""DOWN""
+}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-01,CRM,0.0136161934977407,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-01,CSCO,0.0042803202769092,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-01,DIS,-0.0718069394847005,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-01,GOOGL,0.0426325394945523,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-01,HD,0.0195769457167027,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-01,INTC,0.1142112739806873,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-01,JNJ,0.0365356684318738,UP,UP,"{
+""answer"": ""UP""
+}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-01,JPM,0.0198839523860987,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-01,KO,-0.121991081609161,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-01,MA,-0.112761590276263,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-01,MCD,-0.0314100752647089,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-01,META,-0.0542906093961306,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-01,MSFT,0.0428917383898521,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-01,NFLX,-0.0154236572739459,DOWN,DOWN,"{
+""answer"": ""DOWN""
+}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-01,NKE,-0.0557007195216202,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-01,NVDA,-0.0049982729887808,DOWN,UP,"{
+""answer"": ""UP""
+}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-01,ORCL,-0.0622780772145061,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-01,PEP,-0.0790962884069077,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-01,PFE,-0.0141118772010908,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-01,PG,-0.0729961170467093,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-01,TSLA,0.1245058575743682,UP,UP,"{
+""answer"": ""UP""
+}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-01,UNH,-0.048762551614306,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-01,V,-0.1164906244003189,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-01,WMT,-0.0253899443981673,DOWN,UP,"{
+""answer"": ""UP""
+}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-01,XOM,0.087821479413132,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-02,AAPL,-0.0797120213214135,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-02,ADBE,0.0019618205977194,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-02,AMD,-0.0131947368224123,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-02,AMZN,-0.0353284137674236,DOWN,UP,"{
+""answer"": ""UP""
+}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-02,BAC,0.1706577516995815,UP,DOWN,"{
+""answer"": ""DOWN""
+}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-02,CRM,-0.0401665891207743,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-02,CSCO,0.0065049804555019,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-02,DIS,0.1241004366567033,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-02,GOOGL,0.1064651049519842,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-02,HD,-0.0460823197622737,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-02,INTC,0.1015837365314815,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-02,JNJ,-0.0225701618278116,DOWN,UP,"{
+""answer"": ""UP""
+}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-02,JPM,0.1437785818952772,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-02,KO,0.0174454074745862,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-02,MA,0.1187519093238056,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-02,MCD,-0.0020769111618703,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-02,META,-0.002748236360492,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-02,MSFT,0.0041179166906983,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-02,NFLX,0.0121339605872163,UP,UP,"{
+""answer"": ""UP""
+}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-02,NKE,0.0109586630091207,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-02,NVDA,0.0557940607784037,UP,UP,"{
+""answer"": ""UP""
+}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-02,ORCL,0.0675160494178046,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-02,PEP,-0.0540383669678655,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-02,PFE,-0.0671310802182371,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-02,PG,-0.0365025235956449,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-02,TSLA,-0.1487404504939391,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-02,UNH,-0.0040767433421947,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-02,V,0.1007491699135418,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-02,WMT,-0.0752366736602414,DOWN,UP,"{
+""answer"": ""UP""
+}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-02,XOM,0.2331251682917527,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-03,AAPL,0.0073394604652703,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-03,ADBE,0.034154896405748,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-03,AMD,-0.0711158677589703,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-03,AMZN,0.0003717841485171,UP,UP,"{
+""answer"": ""UP""
+}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-03,BAC,0.1202010482318443,UP,UP,"{
+""answer"": ""UP""
+}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-03,CRM,-0.0213858505179684,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-03,CSCO,0.1524403530690972,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-03,DIS,-0.0239101486907298,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-03,GOOGL,0.0200850441638757,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-03,HD,0.1889866926159791,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-03,INTC,0.0529780974409175,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-03,JNJ,0.0371704501808194,UP,UP,"{
+""answer"": ""UP""
+}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-03,JPM,0.0343824536586307,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-03,KO,0.0848889535968362,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-03,MA,0.0062171744763031,UP,UP,"{""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-03,MCD,0.087319323572141,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-03,META,0.1432728182513241,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-03,MSFT,0.0145883072028547,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-03,NFLX,-0.03190123427424,DOWN,UP,"{
+""answer"": ""UP""
+}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-03,NKE,-0.0140226568216789,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-03,NVDA,-0.0263693944924015,DOWN,UP,"{
+""answer"": ""UP""
+}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-03,ORCL,0.0877379010575314,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-03,PEP,0.1036417425700284,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-03,PFE,0.081815677639458,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-03,PG,0.0963326248274074,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-03,TSLA,-0.0112065694608411,DOWN,UP,"{
+""answer"": ""UP""
+}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-03,UNH,0.1239292955747384,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-03,V,-0.003107656413568,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-03,WMT,0.0498545207305825,UP,UP,"{
+""answer"": ""UP""
+}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-03,XOM,0.0268529281594795,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-04,AAPL,0.0762178068642158,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-04,ADBE,0.0693565045319601,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-04,AMD,0.0397452579182424,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-04,AMZN,0.1206627370956834,UP,UP,"{
+""answer"": ""UP""
+}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-04,BAC,0.0475574683392814,UP,DOWN,"{
+""answer"": ""DOWN""
+}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-04,CRM,0.0870818635175747,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-04,CSCO,-0.0084128040535141,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-04,DIS,0.0081292048199348,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-04,GOOGL,0.1410798893462947,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-04,HD,0.0603441683038843,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-04,INTC,-0.1010939642472805,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-04,JNJ,-0.0098573733035605,DOWN,UP,"{
+""answer"": ""UP""
+}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-04,JPM,0.0163297639632988,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-04,KO,0.0240942174116338,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-04,MA,0.0743256549356252,UP,UP,"{""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-04,MCD,0.0532702106418239,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-04,META,0.1037247591373611,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-04,MSFT,0.0696017124994583,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-04,NFLX,-0.0156998857184977,DOWN,UP,"{
+""answer"": ""UP""
+}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-04,NKE,-0.0020318351575053,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-04,NVDA,0.1244543912704039,UP,UP,"{
+""answer"": ""UP""
+}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-04,ORCL,0.0847647285454289,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-04,PEP,0.0191584376189741,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-04,PFE,0.0667954923093578,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-04,PG,-0.0085382702870036,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-04,TSLA,0.0621472477192173,UP,UP,"{
+""answer"": ""UP""
+}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-04,UNH,0.0718411731887525,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-04,V,0.1031028648475116,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-04,WMT,0.0300376092568568,UP,UP,"{
+""answer"": ""UP""
+}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-04,XOM,0.0252551560318252,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-05,AAPL,-0.0504971302031892,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-05,ADBE,-0.0073966435706659,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-05,AMD,-0.0188679351103284,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-05,AMZN,-0.0704702552586937,DOWN,UP,"{
+""answer"": ""UP""
+}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-05,BAC,0.0458914865186255,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-05,CRM,0.0337790276175982,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-05,CSCO,0.0390886745572778,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-05,DIS,-0.0396195348339823,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-05,GOOGL,0.0014233715953491,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-05,HD,-0.0147064691314344,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-05,INTC,-0.0010113375223061,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-05,JNJ,0.0465554067302298,UP,UP,"{
+""answer"": ""UP""
+}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-05,JPM,0.0678107359479538,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-05,KO,0.0242681794393504,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-05,MA,-0.0562216878864267,DOWN,UP,"{""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-05,MCD,-0.0038047648030988,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-05,META,0.011228238777424,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-05,MSFT,-0.0076273342843389,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-05,NFLX,-0.0207607433648621,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-05,NKE,0.0310309482412325,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-05,NVDA,0.0822813790363008,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-05,ORCL,0.0389232960379388,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-05,PEP,0.0262209673685944,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-05,PFE,0.0119435106774625,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-05,PG,0.0107181311442288,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-05,TSLA,-0.1187133552411727,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-05,UNH,0.0328988151098215,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-05,V,-0.0253886850524759,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-05,WMT,0.019139257645385,UP,UP,"{
+""answer"": ""UP""
+}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-05,XOM,0.0345969535189338,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-06,AAPL,0.0991095122409375,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-06,ADBE,0.1606485200232223,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-06,AMD,0.1729520249430129,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-06,AMZN,0.0673549873709398,UP,UP,"{
+""answer"": ""UP""
+}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-06,BAC,-0.023270546980123,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-06,CRM,0.0259134514155603,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-06,CSCO,0.0018904390395866,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-06,DIS,-0.0161208268295069,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-06,GOOGL,0.0360396513549214,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-06,HD,0.0051806983374156,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-06,INTC,-0.0171568686477918,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-06,JNJ,-0.026646789262531,DOWN,UP,"{
+""answer"": ""UP""
+}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-06,JPM,-0.052971069006761,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-06,KO,-0.0139675115661512,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-06,MA,0.0125078112086485,UP,DOWN,"{""answer"": ""DOWN""}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-06,MCD,-0.0123988942598383,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-06,META,0.0577371149306311,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-06,MSFT,0.0849883683458998,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-06,NFLX,0.0505161195072068,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-06,NKE,0.1321268997327527,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-06,NVDA,0.231622072177829,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-06,ORCL,-0.011429976579329,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-06,PEP,0.0088718290303315,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-06,PFE,0.011102520851056,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-06,PG,0.0005930502358411,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-06,TSLA,0.087137347189101,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-06,UNH,-0.0243088671045513,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-06,V,0.0286844891903861,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-06,WMT,-0.0071112106706815,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-06,XOM,0.080692173236355,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-07,AAPL,0.0649820039715609,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-07,ADBE,0.0614541174342055,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-07,AMD,0.1305227520110516,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-07,AMZN,-0.0327222827222827,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-07,BAC,-0.0696091510979923,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-07,CRM,-0.0095796582228407,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-07,CSCO,0.0520006031296471,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-07,DIS,0.0014222843166493,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-07,GOOGL,0.1035059701892702,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-07,HD,0.029163548185112,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-07,INTC,-0.0431065163207814,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-07,JNJ,0.045283225054425,UP,UP,"{
+""answer"": ""UP""
+}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-07,JPM,-0.0185508177289814,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-07,KO,0.0539639156290918,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-07,MA,0.0583543634571728,UP,DOWN,"{""answer"": ""DOWN""}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-07,MCD,0.0507379945753185,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-07,META,0.0247045146632853,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-07,MSFT,0.0517169376960686,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-07,NFLX,-0.020143488257281,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-07,NKE,0.0842770023273451,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-07,NVDA,-0.0251718491794565,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-07,ORCL,0.1236054330874583,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-07,PEP,0.05925613719161,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-07,PFE,0.1031086686422113,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-07,PG,0.0607316610658652,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-07,TSLA,0.0110342798788789,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-07,UNH,0.0294174668694693,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-07,V,0.0537594087534001,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-07,WMT,0.0108496469522851,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-07,XOM,-0.0873493169493442,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-08,AAPL,0.0424896567569679,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-08,ADBE,0.0676769251705435,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-08,AMD,0.0426593716465582,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-08,AMZN,0.0430341694999938,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-08,BAC,0.088373005194611,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-08,CRM,0.0964742194025432,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-08,CSCO,0.06592022003658,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-08,DIS,0.0299965899351408,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-08,GOOGL,0.0740090935398412,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-08,HD,-0.0061244081268233,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-08,INTC,0.0128686422774606,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-08,JNJ,0.0113750808427943,UP,UP,"{
+""answer"": ""UP""
+}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-08,JPM,0.0538279451306948,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-08,KO,-0.01262475355108,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-08,MA,-0.1028917171214565,DOWN,DOWN,"{""answer"": ""DOWN""}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-08,MCD,-0.0162670315305926,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-08,META,0.0647767296350712,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-08,MSFT,0.0615908077400124,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-08,NFLX,0.0997352773890096,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-08,NKE,-0.0149133450623875,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-08,NVDA,0.1482101939907232,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-08,ORCL,0.0228369909713346,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-08,PEP,-0.0035680437277889,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-08,PFE,0.0761504002767776,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-08,PG,0.0011249083797104,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-08,TSLA,0.0706053837990694,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-08,UNH,0.0098247191325544,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-08,V,-0.0689057708532367,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-08,WMT,0.0427568535642635,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-08,XOM,-0.0386452381627938,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-09,AAPL,-0.0680367680765505,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-09,ADBE,-0.1325599516132933,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-09,AMD,-0.0706286091817888,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-09,AMZN,-0.0535181087629258,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-09,BAC,0.0219766554994265,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-09,CRM,0.0224299422618066,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-09,CSCO,-0.07777022623439,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-09,DIS,-0.0669056068922007,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-09,GOOGL,-0.0761692011120872,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-09,HD,0.0114937449344809,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-09,INTC,-0.0144284496924534,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-09,JNJ,-0.0671748835478474,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-09,JPM,0.0233821710009014,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-09,KO,-0.0611614169666568,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-09,MA,0.0041883290528355,UP,DOWN,"{""answer"": ""DOWN""}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-09,MCD,0.015371133527152,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-09,META,-0.1054085300577751,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-09,MSFT,-0.0661187972053665,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-09,NFLX,0.0722957495938267,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-09,NKE,-0.1184289959061428,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-09,NVDA,-0.0745588983631788,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-09,ORCL,-0.0224393238682734,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-09,PEP,-0.0316453473366761,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-09,PFE,-0.0664205503526145,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-09,PG,-0.0181894161143386,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-09,TSLA,0.0540423315035936,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-09,UNH,-0.0580353767186413,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-09,V,-0.0277172152846866,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-09,WMT,-0.0588790645012797,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-09,XOM,0.0788703143407165,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-10,AAPL,0.0586571382578924,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-10,ADBE,0.1296463879084823,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-10,AMD,0.1684159531008002,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-10,AMZN,0.0266024575966432,UP,UP,"{
+""answer"": ""UP""
+}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-10,BAC,0.1255596007986301,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-10,CRM,0.1049703509507613,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-10,CSCO,0.0352399385808757,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-10,DIS,-0.0005912023325095,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-10,GOOGL,0.1074991599458492,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-10,HD,0.1324557843330309,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-10,INTC,-0.0803303449782817,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-10,JNJ,0.0085449648164164,UP,UP,"{
+""answer"": ""UP""
+}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-10,JPM,0.0441304370905926,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-10,KO,0.0743280711364831,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-10,MA,-0.033755689172542,DOWN,DOWN,"{""answer"": ""DOWN""}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-10,MCD,0.0184148179749714,UP,DOWN,"{""answer"": ""DOWN""}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-10,META,-0.0466131348468616,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-10,MSFT,0.1762911834162219,UP,DOWN,"{""answer"": ""DOWN""}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-10,NFLX,0.131025293791501,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-10,NKE,0.1518969836299268,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-10,NVDA,0.2341667219986236,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-10,ORCL,0.1049438521688019,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-10,PEP,0.0743967880394005,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-10,PFE,0.0169730573990922,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-10,PG,0.0291590389402969,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-10,TSLA,0.436529595729082,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-10,UNH,0.1784560495710441,UP,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-10,V,-0.0492928085303232,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-10,WMT,0.0720330794268631,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-10,XOM,0.0960556184726713,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-11,AAPL,0.1050816860482419,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-11,ADBE,0.0299680033725313,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-11,AMD,0.3172252407498115,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-11,AMZN,0.039923701306487,UP,UP,"{
+""answer"": ""UP""
+}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-11,BAC,-0.0692757690329449,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-11,CRM,-0.04915100053091,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-11,CSCO,-0.0201893806643267,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-11,DIS,-0.1429585384838357,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-11,GOOGL,-0.0415313210814689,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-11,HD,0.0776616040179143,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-11,INTC,0.0110643303799262,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-11,JNJ,-0.0363987313662824,DOWN,UP,"{
+""answer"": ""UP""
+}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-11,JPM,-0.0651006647944654,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-11,KO,-0.0623251125390039,DOWN,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-11,MA,-0.0613971784072785,DOWN,DOWN,"{""answer"": ""DOWN""}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-11,MCD,0.0016536356315646,UP,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-11,META,0.0027505780717786,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-11,MSFT,-0.0012822061770656,DOWN,DOWN,"{""answer"": ""DOWN""}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-11,NFLX,-0.0701278543364849,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-11,NKE,0.0116564200077851,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-11,NVDA,0.2780539093935128,UP,UP,"{
+""answer"": ""UP""
+}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-11,ORCL,-0.0542008436113043,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-11,PEP,-0.0112625505121365,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-11,PFE,0.2391773909199839,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-11,PG,0.0111198734318642,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-11,TSLA,0.027612188873779,UP,DOWN,"{
+""answer"": ""DOWN""
+}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-11,UNH,-0.0352898401801557,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-11,V,-0.0833869842190437,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-11,WMT,-0.0588274957612936,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-11,XOM,-0.0593421387161543,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-12,AAPL,0.0742289079282343,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-12,ADBE,-0.1534522382230891,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-12,AMD,-0.0913683252310255,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-12,AMZN,-0.0492519687882848,DOWN,UP,"{
+""answer"": ""UP""
+}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-12,BAC,0.0052651739867228,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-12,CRM,-0.1081904134513035,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-12,CSCO,0.1555432835730412,UP,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-12,DIS,0.0689441544941296,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-12,GOOGL,0.0208215865453402,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-12,HD,0.0402297429292042,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-12,INTC,0.0467479268699968,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-12,JNJ,0.0970945070521727,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-12,JPM,-0.0030219090308041,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-12,KO,0.1288847302575242,UP,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-12,MA,0.1409880666232363,UP,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-12,MCD,0.0959526429511068,UP,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-12,META,0.0366453731126157,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-12,MSFT,0.0173325826592756,UP,DOWN,"{""answer"": ""DOWN""}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-12,NFLX,-0.0614737935834642,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-12,NKE,-0.0134152593152382,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-12,NVDA,-0.0998102190893682,DOWN,UP,"{
+""answer"": ""UP""
+}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-12,ORCL,-0.0389019443865188,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-12,PEP,0.0945289824309834,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-12,PFE,0.09901339003417,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-12,PG,0.1314150249237848,UP,DOWN,"{""answer"": ""DOWN""}",UP,"{
+  ""answer"": ""UP""
+}"
+2021-12,TSLA,-0.0768545194785086,DOWN,DOWN,"{
+""answer"": ""DOWN""
+}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-12,UNH,0.1340726653928379,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2021-12,V,0.118387561563364,UP,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-12,WMT,0.0330127209168089,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2021-12,XOM,0.022560067074278,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,AAPL,-0.0157121615542005,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,ADBE,-0.0577716818443712,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,AMD,-0.2060458315086054,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,AMZN,-0.1028299102184566,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,BAC,0.037086955859209,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,CRM,-0.0846024030330399,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,CSCO,-0.1163321324400578,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,DIS,-0.0769578184561921,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,GOOGL,-0.0659192106462873,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,HD,-0.1157321791963573,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,INTC,-0.0520389327430164,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,JNJ,0.0071316297715127,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,JPM,-0.0559477344930048,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,KO,0.0304002200042212,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,MA,0.0767200158555638,UP,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,MCD,-0.0321557116101534,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,META,-0.0686486170093002,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,MSFT,-0.0753447320399213,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,NFLX,-0.2909833166831332,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,NKE,-0.1115979915522442,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,NVDA,-0.1674545346075731,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,ORCL,-0.0659157299458372,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,PEP,-0.0010938069798018,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,PFE,-0.1009209936883025,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,PG,-0.0138384606724565,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2022-01,TSLA,-0.1136093181791404,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,UNH,-0.058888022335247,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,V,0.0436528796884367,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,WMT,-0.0337275102899414,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-01,XOM,0.2413793103448276,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,AAPL,-0.0540660257214075,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,ADBE,-0.1246864994183782,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,AMD,0.0795623311850382,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,AMZN,0.0266725182655884,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,BAC,-0.0420459752135846,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,CRM,-0.0950007520028342,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,CSCO,0.0017965065887661,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,DIS,0.0383996960096533,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,GOOGL,-0.0018216765275823,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,HD,-0.1393808140280911,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,INTC,-0.0154983397073227,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,JNJ,-0.0386765865211063,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,JPM,-0.0457601310672812,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,KO,0.0201606665110516,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,MA,-0.0661524068312759,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,MCD,-0.0513333209354724,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,META,-0.3263423648021253,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,MSFT,-0.0372122066619927,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,NFLX,-0.0763684268388427,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,NKE,-0.0778009703292547,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,NVDA,-0.0041247023484267,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,ORCL,-0.0639479291155192,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,PEP,-0.0563624395718675,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,PFE,-0.1091289359117893,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,PG,-0.028419862081763,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,TSLA,-0.0707681586632628,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,UNH,0.0069829949081037,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,V,-0.0428811229468933,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,WMT,-0.033259259741415,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-02,XOM,0.0438301194048533,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,AAPL,0.0574735178965077,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,ADBE,-0.0257868579957712,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,AMD,-0.113507381349736,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,AMZN,0.0614372850300157,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,BAC,-0.0628609626992227,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,CRM,0.0085025047208644,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,CSCO,-0.0001792739086983,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,DIS,-0.0761148144649918,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,GOOGL,0.029694903980147,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,HD,-0.0465239708296322,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,INTC,0.0389935163985526,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,JNJ,0.0769276266989527,UP,DOWN,"{
+""answer"": ""DOWN""
+}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,JPM,-0.0386460872765851,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,KO,0.0037693030784671,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,MA,-0.0095337776314594,DOWN,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,MCD,0.0102546980726982,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,META,0.0536890700167072,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,MSFT,0.0318619372942419,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,NFLX,-0.0505170852548876,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,NKE,-0.0123249466141879,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,NVDA,0.1191571387757528,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,ORCL,0.0889827972729742,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,PEP,0.0289535981524038,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,PFE,0.1028974512050515,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,PG,-0.0198218183906533,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,TSLA,0.2380088093327557,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,UNH,0.0748295830896441,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,V,0.0261428880772449,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,WMT,0.106066818139094,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-03,XOM,0.0531753904524687,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,AAPL,-0.0971308183739776,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,ADBE,-0.1309643640525672,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,AMD,-0.2178525744706801,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,AMZN,-0.2375250931362105,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,BAC,-0.1344008563885538,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,CRM,-0.1713452402191658,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,CSCO,-0.1155771412625189,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,DIS,-0.1861330686042194,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,GOOGL,-0.1794670725732693,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,HD,0.0035747037357165,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,INTC,-0.1204600100862354,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,JNJ,0.0182249384863126,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,JPM,-0.1179230731732079,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,KO,0.042096677458888,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,MA,0.0181998124832127,UP,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,MCD,0.0076028415555176,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,META,-0.0984439327941468,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,MSFT,-0.0998667305275239,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,NFLX,-0.4918177344777594,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,NKE,-0.0732756737407908,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,NVDA,-0.3202739100668358,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,ORCL,-0.1093058548049887,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,PEP,0.0258695064101688,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,PFE,-0.0521535822577173,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,PG,0.0566147840268664,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,TSLA,-0.1919451098216471,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,UNH,-0.0027845428707702,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,V,-0.0389593065652232,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,WMT,0.0273301035096533,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-04,XOM,0.0322075687679181,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,AAPL,-0.0544961803014492,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,ADBE,0.0518499763767208,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,AMD,0.1910664711024627,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,AMZN,-0.0327643176031664,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,BAC,0.0426008976659608,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,CRM,-0.089235063006826,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,CSCO,-0.0802368620931496,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,DIS,-0.010660127554696,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,GOOGL,-0.0030452408299723,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,HD,0.0078230027924781,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,INTC,0.0270963158824275,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,JNJ,0.0012393499214717,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,JPM,0.1078252817872731,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,KO,-0.0190370854569258,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,MA,-0.0151629371136262,DOWN,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,MCD,0.012241015591853,UP,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,META,-0.034070050290605,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,MSFT,-0.0180774203960398,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,NFLX,0.0371926985296902,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,NKE,-0.0469126557115008,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,NVDA,0.0067392490731001,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,ORCL,-0.0201634002834555,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,PEP,-0.0230622427794687,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,PFE,0.089719483867136,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,PG,-0.0789163299110872,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,TSLA,-0.1291974857378613,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,UNH,-0.0231442027770302,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,V,-0.0026029286578636,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,WMT,-0.1561701128825683,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-05,XOM,0.137634392264101,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,AAPL,-0.0814297073563307,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,ADBE,-0.1210622649291793,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,AMD,-0.2492636877823478,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,AMZN,-0.1164592126224128,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,BAC,-0.1583521893074373,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,CRM,0.0299552624528045,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,CSCO,-0.0534962189459991,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,DIS,-0.1452371823842406,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,GOOGL,-0.042184468188533,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,HD,-0.0883498317051675,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,INTC,-0.1578116490958836,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,JNJ,-0.0112513462073976,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,JPM,-0.1483779170542151,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,KO,-0.0002443252024019,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,MA,-0.1184509082956301,DOWN,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,MCD,-0.0157081011646271,DOWN,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,META,-0.1672691461630188,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,MSFT,-0.0553205398080669,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,NFLX,-0.1143132105342372,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,NKE,-0.1379620018084367,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,NVDA,-0.1879709057833027,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,ORCL,-0.0285037464911845,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,PEP,0.0004124223251056,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,PFE,-0.0115008778140779,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,PG,-0.0276572315365881,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,TSLA,-0.1118877412230366,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,UNH,0.0376056299721856,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,V,-0.0720176608694895,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,WMT,-0.054808059345624,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-06,XOM,-0.10791665961506,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,AAPL,0.1886340135263784,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,ADBE,0.12036277619092,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,AMD,0.235386422291919,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,AMZN,0.2705959712975005,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,BAC,0.0860907323190927,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,CRM,0.1150022956722174,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,CSCO,0.0736012672691557,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,DIS,0.123940647501954,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,GOOGL,0.0675183157639975,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,HD,0.097240236414676,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,INTC,-0.0294040943284108,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,JNJ,-0.0168441962982963,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,JPM,0.0334820387940977,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,KO,0.0200285822600574,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,MA,0.1231528205048688,UP,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,MCD,0.0667934055269026,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,META,-0.013333172835423,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,MSFT,0.0930963058699154,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,NFLX,0.2860982672325631,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,NKE,0.1244617370622227,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,NVDA,0.198166182886563,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,ORCL,0.1190511692492424,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,PEP,0.0498019141928538,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,PFE,-0.029144812120204,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,PG,-0.0276671267199215,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,TSLA,0.3237652643408195,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,UNH,0.0558965053655238,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,V,0.0773021422255331,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,WMT,0.0861160735733244,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-07,XOM,0.1318312071277416,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,AAPL,-0.0312081323109085,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,ADBE,-0.0894372210876973,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,AMD,-0.1016195443005588,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,AMZN,-0.0606150462405203,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,BAC,-0.0059155987006414,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,CRM,-0.1516139063479696,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,CSCO,-0.0143266189071816,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,DIS,0.0563618560009397,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,GOOGL,-0.0696354391828205,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,HD,-0.0353498553415599,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,INTC,-0.1120284130295724,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,JNJ,-0.0693097610908308,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,JPM,-0.0141294962406119,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,KO,-0.0383357650797093,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,MA,-0.083156511502099,DOWN,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,MCD,-0.0368647229020473,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,META,0.0240728429562673,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,MSFT,-0.0666630196160669,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,NFLX,-0.0059581534999254,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,NKE,-0.0737035713162725,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,NVDA,-0.1689700543957588,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,ORCL,-0.0474048118804372,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,PEP,-0.0153747204922933,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,PFE,-0.1045339891970015,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,PG,-0.0069831606598428,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,TSLA,-0.0724886723451375,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,UNH,-0.0424275223736362,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,V,-0.061515545440269,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,WMT,0.0081582569792579,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-08,XOM,-0.0042427369585533,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,AAPL,-0.1209770041298742,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,ADBE,-0.2630676670740144,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,AMD,-0.2534464644764812,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,AMZN,-0.1086218900978376,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,BAC,-0.0955375148500031,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,CRM,-0.0786575015602872,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,CSCO,-0.1055457608454052,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,DIS,-0.1583689614906985,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,GOOGL,-0.1161523511505449,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,HD,-0.043270099272229,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,INTC,-0.192669197900694,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,JNJ,0.0125198941015558,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,JPM,-0.0811570513008593,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,KO,-0.0855868496415356,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,MA,-0.123408518313248,DOWN,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,MCD,-0.0853812412389203,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,META,-0.1672498315366271,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,MSFT,-0.109266788909922,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,NFLX,0.0531400821927647,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,NKE,-0.2169210466700497,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,NVDA,-0.195534115260649,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,ORCL,-0.1763991241527888,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,PEP,-0.0459331111592702,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,PFE,-0.0325004995853281,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,PG,-0.0847466590568882,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,TSLA,-0.0375892961147525,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,UNH,-0.0244646884406436,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,V,-0.1059837710123339,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,WMT,-0.0215014425935691,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-09,XOM,-0.0866200616957346,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,AAPL,0.1095515050299369,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,ADBE,0.1573400649430001,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,AMD,-0.0520833207902684,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,AMZN,-0.0934513058282632,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,BAC,0.1933775645565882,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,CRM,0.130353246571852,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,CSCO,0.1463000259308595,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,DIS,0.1294390809380381,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,GOOGL,-0.0119184833521783,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,HD,0.0731680953835696,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,INTC,0.1032206405029527,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,JNJ,0.0649487147852669,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,JPM,0.215370457079441,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,KO,0.0683684355816767,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,MA,0.1560436007854422,UP,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,MCD,0.1816766185667651,UP,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,META,-0.3133843530927039,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,MSFT,-0.0033062039610404,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,NFLX,0.2397213281413226,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,NKE,0.1150144595938558,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,NVDA,0.1118708154629612,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,ORCL,0.2849403969635458,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,PEP,0.1122138585606293,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,PFE,0.0637570373635627,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,PG,0.0742632924912807,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,TSLA,-0.142167791569716,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,UNH,0.0992198086121465,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,V,0.1661134341473482,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,WMT,0.097378593984988,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-10,XOM,0.2691560676159614,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,AAPL,-0.0330277446446903,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,ADBE,0.0829827085581829,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,AMD,0.292540717255801,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,AMZN,-0.0575947030970991,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,BAC,0.0502218087757562,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,CRM,-0.0143920753588431,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,CSCO,0.0944308521295349,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,DIS,-0.0813778889990367,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,GOOGL,0.0685642915632236,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,HD,0.1006993337974142,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,INTC,0.0719707410626779,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,JNJ,0.0297689971337131,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,JPM,0.0977122620550863,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,KO,0.070361448751266,UP,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,MA,0.0859893699481679,UP,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,MCD,0.006111223492615,UP,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,META,0.2677112894867128,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,MSFT,0.1022230351888988,UP,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,NFLX,0.0467657867604074,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,NKE,0.183534849451435,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,NVDA,0.2541548059398113,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,ORCL,0.0635326692457274,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,PEP,0.021643417898417,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,PFE,0.0861365357111507,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,PG,0.1075962671632622,UP,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,TSLA,-0.1443262604679527,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,UNH,-0.0133117420796363,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,V,0.0498407938332363,UP,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,WMT,0.0708915356757662,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-11,XOM,0.0128717584639916,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,AAPL,-0.1222723699760617,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,ADBE,-0.0243527500502979,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,AMD,-0.1656576203187402,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,AMZN,-0.1298943525647971,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,BAC,-0.119851290104642,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,CRM,-0.1726053429601206,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,CSCO,-0.0418343132372418,DOWN,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,DIS,-0.1122917720596914,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,GOOGL,-0.1263492216021885,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,HD,-0.0250935306495939,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,INTC,-0.1210508343974908,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,JNJ,-0.0075844329237519,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,JPM,-0.0295266855652546,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,KO,0.0,DOWN,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,MA,-0.0243262654747634,DOWN,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,MCD,-0.0339456687376027,DOWN,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,META,0.0189668519998043,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,MSFT,-0.0600453145442777,DOWN,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,NFLX,-0.0348574164324645,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,NKE,0.0700078413675635,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,NVDA,-0.1364414332351874,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,ORCL,-0.0155364575431082,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,PEP,-0.0200695573405499,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,PFE,0.0221424076367651,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,PG,0.0160901024984165,UP,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,TSLA,-0.3673343490707852,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,UNH,-0.0291105842079389,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,V,-0.0425807315220143,DOWN,DOWN,"{""answer"": ""DOWN""}",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,WMT,-0.0662344883752106,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2022-12,XOM,-0.009340695745638,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2023-01,AAPL,0.1105210345563549,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-01,ADBE,0.1004665191252891,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2023-01,AMD,0.1602594630352458,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2023-01,AMZN,0.2277380625406901,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2023-01,BAC,0.0712563654819249,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2023-01,CRM,0.2668376366686908,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-01,CSCO,0.029783108734446,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-01,DIS,0.2487338255319862,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2023-01,GOOGL,0.1202539397100512,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2023-01,HD,0.0263090859482628,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-01,INTC,0.0692395381146977,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-01,JNJ,-0.0748938286333712,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2023-01,JPM,0.051407886255955,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2023-01,KO,-0.0360006053760443,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2023-01,MA,0.0674988772375693,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2023-01,MCD,0.0146852228651666,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-01,META,0.2379093528211617,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2023-01,MSFT,0.033316488645767,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-01,NFLX,0.2000135832610239,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2023-01,NKE,0.0881973775965048,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2023-01,NVDA,0.3368687628602591,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2023-01,ORCL,0.0862700600823282,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-01,PEP,-0.0533597210152211,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-01,PFE,-0.1302614290034142,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2023-01,PG,-0.0546752794900869,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-01,TSLA,0.4062347847991097,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2023-01,UNH,-0.0584520386144278,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2023-01,V,0.1080572547805085,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-01,WMT,0.0146694831445224,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2023-01,XOM,0.0517678302532511,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2023-02,AAPL,0.0231829477491891,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-02,ADBE,-0.1252632299767431,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-02,AMD,0.0456420523690157,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-02,AMZN,-0.0862987892321446,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-02,BAC,-0.0332581091973176,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2023-02,CRM,-0.0259568920976746,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-02,CSCO,-0.0051365553583515,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-02,DIS,-0.0818508399355372,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-02,GOOGL,-0.0888303871233637,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-02,HD,-0.0852329862734185,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-02,INTC,-0.1070853677434744,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-02,JNJ,-0.0554258977078051,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2023-02,JPM,0.0242211758826056,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-02,KO,-0.0295173921957599,DOWN,DOWN,"{""answer"": ""DOWN""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-02,MA,-0.0413115401816672,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2023-02,MCD,-0.0073531805390103,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-02,META,0.1743303553424213,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2023-02,MSFT,0.0090178721151492,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-02,NFLX,-0.0896682358389638,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2023-02,NKE,-0.0670697259900043,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{
+  ""answer"": ""UP""
+}"
+2023-02,NVDA,0.1883092585456467,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-02,ORCL,-0.0119828947726325,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-02,PEP,0.0146765469212617,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-02,PFE,-0.0812953451151619,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-02,PG,-0.0338528069590723,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-02,TSLA,0.1875649767013214,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-02,UNH,-0.0465753419244788,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-02,V,-0.0427399639390122,DOWN,UP,"{""answer"": ""UP""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-02,WMT,-0.0120942634306689,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2023-02,XOM,-0.0452912367873443,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{
+  ""answer"": ""DOWN""
+}"
+2023-03,AAPL,0.1186487197578811,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-03,ADBE,0.1895971001566245,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-03,AMD,0.2472639329654109,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-03,AMZN,0.0961476943206232,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-03,BAC,-0.1607728903178807,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-03,CRM,0.2210744335782162,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-03,CSCO,0.0797190441396791,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-03,DIS,0.0052203639300603,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-03,GOOGL,0.1517876774436704,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-03,HD,0.0024183682964638,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-03,INTC,0.3104691904142347,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-03,JNJ,0.0113531857470534,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-03,JPM,-0.0909660860047296,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-03,KO,0.050341181659343,UP,DOWN,"{""answer"": ""DOWN""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-03,MA,0.0228546432497456,UP,UP,"{""answer"": ""UP""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-03,MCD,0.0594898842318258,UP,DOWN,"{""answer"": ""DOWN""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-03,META,0.2115013771011722,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-03,MSFT,0.1558814818727327,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-03,NFLX,0.0724862320732742,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-03,NKE,0.0353539805353075,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-03,NVDA,0.1966627014446669,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-03,ORCL,0.0631575808706939,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-03,PEP,0.0576376616809162,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-03,PFE,0.0056693312049351,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-03,PG,0.0809098595630721,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2023-03,TSLA,0.0085071213984946,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-03,UNH,-0.0035019570552312,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-03,V,0.025097643906577,UP,UP,"{""answer"": ""UP""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-03,WMT,0.0416826572086708,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-03,XOM,-0.0022745169037341,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,AAPL,0.0289872136255082,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,ADBE,-0.0202662315633026,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,AMD,-0.0881542618235957,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,AMZN,0.0209119567583442,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,BAC,0.0237761828257647,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,CRM,-0.0070578601940296,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,CSCO,-0.0894239333170109,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,DIS,0.0236692519374992,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,GOOGL,0.0348018279258999,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,HD,0.0183653025301209,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,INTC,-0.0492806710518736,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,JNJ,0.0561293420855937,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,JPM,0.0691806589750083,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,KO,0.0341772662136197,UP,DOWN,"{""answer"": ""DOWN""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,MA,0.0473741281221884,UP,UP,"{""answer"": ""UP""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,MCD,0.05772341583212,UP,UP,"{""answer"": ""UP""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,META,0.1339056625661472,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,MSFT,0.0657650668023615,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,NFLX,-0.0450098497761454,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,NKE,0.0332682033283511,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,NVDA,-0.0010080536140691,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,ORCL,0.0236403426288225,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,PEP,0.04712026037829,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,PFE,-0.0468138689388294,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,PG,0.0583031853803635,UP,UP,"{""answer"": ""UP""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,TSLA,-0.2079919394526327,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,UNH,0.0412618938250086,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,V,0.0322451567451369,UP,UP,"{""answer"": ""UP""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,WMT,0.0238725133907995,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-04,XOM,0.0791535345845655,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,AAPL,0.0460585955375076,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,ADBE,0.106552630698343,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,AMD,0.3227033171260993,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,AMZN,0.1434803728845883,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,BAC,-0.0508879887844079,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,CRM,0.1260776568248385,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,CSCO,0.0512166884782161,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,DIS,-0.1418535977948658,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,GOOGL,0.1446805261895414,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,HD,-0.0500744801949379,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,INTC,0.0163796349629938,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,JNJ,-0.045632640396634,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,JPM,-0.0183014497854627,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,KO,-0.0699924410328468,DOWN,DOWN,"{""answer"": ""DOWN""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,MA,-0.0394969836021003,DOWN,UP,"{""answer"": ""UP""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,MCD,-0.035976254799523,DOWN,UP,"{""answer"": ""UP""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,META,0.1015312178429541,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,MSFT,0.07110554266892,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,NFLX,0.1979207338907287,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,NKE,-0.1693499070230071,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,NVDA,0.3634365666879342,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,ORCL,0.1184544622359471,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,PEP,-0.0447376265527782,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,PFE,-0.0117920636941296,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,PG,-0.088758299334098,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,TSLA,0.2411295460159617,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,UNH,-0.0098558127400905,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,V,-0.0484212318106689,DOWN,UP,"{""answer"": ""UP""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,WMT,-0.0234620885853996,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-05,XOM,-0.1290630921189911,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,AAPL,0.0943298093586915,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-06,ADBE,0.1704204988947157,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,AMD,-0.0363759026788462,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,AMZN,0.08110796675057,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,BAC,0.0406240018913328,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,CRM,-0.0542573137006057,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,CSCO,0.0416752781589069,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,DIS,0.0150066401656441,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,GOOGL,-0.0257997658498742,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,HD,0.0959251399553389,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,INTC,0.0636131720120094,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,JNJ,0.0674576587691588,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,JPM,0.0716968923448841,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,KO,0.0170739479113548,UP,DOWN,"{""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,MA,0.0774751476255286,UP,UP,"{""answer"": ""UP""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,MCD,0.0522041900965668,UP,UP,"{""answer"": ""UP""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,META,0.0840888765570786,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,MSFT,0.036998705229263,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,NFLX,0.1145156266694669,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,NKE,0.0519980417920011,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,NVDA,0.1182105733971261,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,ORCL,0.1241269726289491,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,PEP,0.0228343391286776,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,PFE,-0.0352445333462113,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,PG,0.0648424640250606,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,TSLA,0.2836267268927319,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,UNH,-0.0094962769288587,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,V,0.0744242453918828,UP,UP,"{""answer"": ""UP""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,WMT,0.0701981135965772,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-06,XOM,0.0496181585828814,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-07,AAPL,0.0127853915546622,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-07,ADBE,0.116934894001357,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-07,AMD,0.0043016227549514,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-07,AMZN,0.0254678739635265,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-07,BAC,0.1153711177905116,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-07,CRM,0.065085626294552,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-07,CSCO,0.0134252539034263,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-07,DIS,-0.004368261681808,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-07,GOOGL,0.1087720440636443,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-07,HD,0.0746847172770575,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-07,INTC,0.0696771010917722,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-07,JNJ,0.0121433708312368,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-07,JPM,0.0935425536837157,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-07,KO,0.0283958535986927,UP,DOWN,"{""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-07,MA,0.0039416496730411,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2023-07,MCD,-0.0174589157605213,DOWN,UP,"{""answer"": ""UP""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-07,META,0.1101818359838824,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-07,MSFT,-0.0135667768923632,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2023-07,NFLX,-0.0034507123426921,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-07,NKE,0.000181219057701,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-07,NVDA,0.1046522093279367,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-07,ORCL,-0.0121638643722103,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-07,PEP,0.0120939019151051,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-07,PFE,-0.0059498515518191,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-07,PG,0.0365412542005862,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-07,TSLA,0.0216220495077981,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-07,UNH,0.0535326523719437,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-07,V,0.0010527517191267,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2023-07,WMT,0.0170504248920095,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-07,XOM,-9.331520427602324e-05,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-08,AAPL,-0.0423839295075285,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-08,ADBE,0.0241134525100383,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-08,AMD,-0.0758741275297294,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-08,AMZN,0.0323907994336623,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-08,BAC,-0.0965962590183778,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-08,CRM,-0.0157770352616676,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-08,CSCO,0.102036895614715,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-08,DIS,-0.0586117487299017,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-08,GOOGL,0.0259946928667538,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-08,HD,-0.0042858228727254,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-08,INTC,-0.0140783350187565,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-08,JNJ,-0.0279122936317661,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-08,JPM,-0.073626459210953,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-08,KO,-0.033909142490143,DOWN,DOWN,"{""answer"": ""DOWN""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-08,MA,0.04656579914368,UP,UP,"{""answer"": ""UP""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-08,MCD,-0.0359428414635751,DOWN,UP,"{""answer"": ""UP""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-08,META,-0.0712805591652981,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-08,MSFT,-0.0222257192933319,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-08,NFLX,-0.0120509223030353,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-08,NKE,-0.0786303600304827,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-08,NVDA,0.0561963013352582,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-08,ORCL,0.0269555635524743,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-08,PEP,-0.0442138105049852,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-08,PFE,-0.018857480495939,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-08,PG,-0.0125399254784269,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-08,TSLA,-0.0349624438529267,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-08,UNH,-0.0588305177814614,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-08,V,0.0353846006072893,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2023-08,WMT,0.0208187876958605,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-08,XOM,0.0453328624130064,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-09,AAPL,-0.0886782158363588,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-09,ADBE,-0.0883899427633121,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-09,AMD,-0.0274309637948717,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-09,AMZN,-0.078907268992859,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-09,BAC,-0.0449949487974191,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-09,CRM,-0.0843494028988763,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-09,CSCO,-0.062597950572634,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-09,DIS,-0.0314292377379923,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-09,GOOGL,-0.0389956017701517,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-09,HD,-0.0851952922655755,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-09,INTC,0.0116676142167613,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-09,JNJ,-0.036677095271321,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-09,JPM,-0.0089521441800315,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-09,KO,-0.056925867652204,DOWN,DOWN,"{""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-09,MA,-0.0405437369804047,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2023-09,MCD,-0.0629914069819832,DOWN,UP,"{""answer"": ""UP""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-09,META,0.0146000397136907,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-09,MSFT,-0.0366427434002649,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2023-09,NFLX,-0.1293119743829111,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-09,NKE,-0.0567229677715471,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-09,NVDA,-0.1185779493598029,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-09,ORCL,-0.1201927800266482,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-09,PEP,-0.0476618859736477,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-09,PFE,-0.0624647392131986,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-09,PG,-0.0549436911286072,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-09,TSLA,-0.0304556174849366,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-09,UNH,0.0620521254693517,UP,UP,"{""answer"": ""UP""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-09,V,-0.0637821638638268,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2023-09,WMT,-0.0164812206744966,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-09,XOM,0.057469006620942,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-10,AAPL,-0.0025699401103057,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-10,ADBE,0.0434595095653367,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-10,AMD,-0.0420151693021418,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-10,AMZN,0.0469634476268063,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-10,BAC,-0.0379839550276679,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-10,CRM,-0.0096162369931576,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2023-10,CSCO,-0.0233168190072575,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-10,DIS,0.006662496457539,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-10,GOOGL,-0.0518108927839502,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-10,HD,-0.057816943881129,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-10,INTC,0.0267230189054712,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-10,JNJ,-0.0475762453027823,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-10,JPM,-0.0340223231713487,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-10,KO,0.0091105515561698,UP,DOWN,"{""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-10,MA,-0.0480272695530149,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2023-10,MCD,-0.0048206009751045,DOWN,UP,"{""answer"": ""UP""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-10,META,0.003531009376479,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-10,MSFT,0.0708156881666921,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2023-10,NFLX,0.0902807348586263,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-10,NKE,0.0747752038888238,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-10,NVDA,-0.0625071740841602,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-10,ORCL,-0.0202193139339601,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-10,PEP,-0.0363551902417789,DOWN,UP,"{""answer"": ""UP""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-10,PFE,-0.0786854890826913,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-10,PG,0.0350809207891222,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2023-10,TSLA,-0.1973463537763216,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-10,UNH,0.0622183962298505,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2023-10,V,0.0221294831687193,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2023-10,WMT,0.021759471944114,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-10,XOM,-0.0997618343481271,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-11,AAPL,0.1137802265573952,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2023-11,ADBE,0.1483855440538672,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-11,AMD,0.2300507986000952,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-11,AMZN,0.0976782655173829,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-11,BAC,0.166794053946172,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-11,CRM,0.2542946040292235,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2023-11,CSCO,-0.0719353957870092,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2023-11,DIS,0.1360460317608811,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-11,GOOGL,0.0681010614697001,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-11,HD,0.1085565279527431,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2023-11,INTC,0.2286844378393089,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-11,JNJ,0.0509540262782193,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-11,JPM,0.122393418173692,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-11,KO,0.0427568769203576,UP,DOWN,"{""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-11,MA,0.0995881667215232,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2023-11,MCD,0.0814688671216095,UP,UP,"{""answer"": ""UP""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-11,META,0.08590303774804,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-11,MSFT,0.1229453052869415,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2023-11,NFLX,0.151278895158228,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-11,NKE,0.072978454614542,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2023-11,NVDA,0.1468857427005929,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-11,ORCL,0.1238879938652577,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-11,PEP,0.0385427913742426,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2023-11,PFE,0.01049756597652,UP,DOWN,"{""answer"": ""DOWN""}",UP,"{ ""answer"": ""UP"" }"
+2023-11,PG,0.0232622847238725,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2023-11,TSLA,0.1953794374062185,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-11,UNH,0.0325083192037884,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2023-11,V,0.0941149769746052,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2023-11,WMT,-0.0472431304569047,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-11,XOM,-0.0205055898918611,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-12,AAPL,0.013582577496684,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2023-12,ADBE,-0.0235839576265125,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-12,AMD,0.2166556553861283,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-12,AMZN,0.0400438513940761,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-12,BAC,0.1042964013944713,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-12,CRM,0.0446210230461001,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2023-12,CSCO,0.0442330058405335,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2023-12,DIS,-0.0227178513327169,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-12,GOOGL,0.0540256561892116,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-12,HD,0.1054579786142444,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2023-12,INTC,0.1241610291329844,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-12,JNJ,0.0134491006220396,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-12,JPM,0.0898255604069746,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-12,KO,0.0083844639826056,UP,DOWN,"{""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-12,MA,0.030640819931428,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2023-12,MCD,0.0520508101110148,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2023-12,META,0.0819501856832223,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-12,MSFT,-0.0075744065197198,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2023-12,NFLX,0.0272380189393197,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-12,NKE,-0.0121018277178818,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2023-12,NVDA,0.0589342232353866,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-12,ORCL,-0.092763141741506,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2023-12,PEP,0.0092102332761065,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2023-12,PFE,-0.0551362069894102,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2023-12,PG,-0.0454665846923161,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2023-12,TSLA,0.0349883115312348,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-12,UNH,-0.0446751607958351,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2023-12,V,0.0142979881708946,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2023-12,WMT,0.0163499774361435,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2023-12,XOM,-0.0268639311293278,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-01,AAPL,-0.0422272529274398,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-01,ADBE,0.0355012647966268,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-01,AMD,0.1375754580793737,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-01,AMZN,0.0214558013324577,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-01,BAC,0.0100978412365606,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-01,CRM,0.0682143549812794,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-01,CSCO,0.0009989976625703,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-01,DIS,0.0637944078202987,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-01,GOOGL,0.0029349064976171,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-01,HD,0.0184964673978764,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-01,INTC,-0.1426865426840193,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-01,JNJ,0.0137806024681801,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-01,JPM,0.0313648097373426,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-01,KO,0.009502920650021,UP,DOWN,"{""answer"": ""DOWN""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-01,MA,0.0549294005860776,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-01,MCD,-0.0127820698393703,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-01,META,0.102214826632722,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-01,MSFT,0.0572811161855879,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-01,NFLX,0.1586222399014296,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-01,NKE,-0.0648428577328412,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-01,NVDA,0.2424175377463124,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-01,ORCL,0.0635758168685176,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-01,PEP,-0.0077131862009788,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-01,PFE,-0.0452410575846881,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-01,PG,0.079107681327045,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-01,TSLA,-0.2462572581033917,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-01,UNH,-0.0279788821168769,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-01,V,0.0495872456364736,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-01,WMT,0.0482077264261364,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-01,XOM,0.0283056656394029,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-02,AAPL,-0.0185429957705151,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-02,ADBE,-0.0930752003515612,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-02,AMD,0.1481304548645954,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-02,AMZN,0.1389175127740745,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-02,BAC,0.0221457376965383,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-02,CRM,0.0986517911613953,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-02,CSCO,-0.0360701884816694,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-02,DIS,0.1616865631275486,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-02,GOOGL,-0.0117057119111094,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-02,HD,0.0783376531243953,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-02,INTC,0.0022326982931941,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-02,JNJ,0.023318517863788,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-02,JPM,0.0671026513622474,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-02,KO,0.0089090622348555,UP,DOWN,"{""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-02,MA,0.0568305765663992,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-02,MCD,0.0041778132025716,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-02,META,0.2576255681294548,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-02,MSFT,0.0423184791353372,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-02,NFLX,0.0687986486162077,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-02,NKE,0.0236383453286743,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-02,NVDA,0.2858094301189486,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-02,ORCL,-0.0001789655116753,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-02,PEP,-0.0114413751559053,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-02,PFE,-0.0192023571126267,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-02,PG,0.0114546646936866,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-02,TSLA,0.0779006466960023,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-02,UNH,-0.0354475549201799,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-02,V,0.0362550254123796,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-02,WMT,0.0640243548586354,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-02,XOM,0.0260809406544215,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-03,AAPL,-0.0512863707789005,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-03,ADBE,-0.0993789181870986,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-03,AMD,-0.0625356742454178,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-03,AMZN,0.0204798058863742,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-03,BAC,0.0984936644300327,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-03,CRM,-0.0234653091436426,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-03,CSCO,0.0318378113614172,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-03,DIS,0.096612294258267,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-03,GOOGL,0.0900619152095496,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-03,HD,0.0138837013775832,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-03,INTC,0.0260162330836735,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-03,JNJ,-0.0197669875432151,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-03,JPM,0.0765343105162896,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-03,KO,0.0274801433044857,UP,DOWN,"{""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-03,MA,0.0143441108655189,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-03,MCD,-0.0353429216242703,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-03,META,-0.00928327272145,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-03,MSFT,0.0171162425332163,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-03,NFLX,0.0073144346418954,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-03,NKE,-0.0925068679239126,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-03,NVDA,0.1421813644892353,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-03,ORCL,0.1247314684312905,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-03,PEP,0.0584853312124382,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-03,PFE,0.0448041140705715,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-03,PG,0.0208255725950106,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-03,TSLA,-0.1292352435389747,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-03,UNH,0.0061793056315482,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-03,V,-0.0125956770183274,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-03,WMT,0.0301130803937637,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-03,XOM,0.1121315179920825,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-04,AAPL,-0.0067063533149152,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-04,ADBE,-0.0827784760721567,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-04,AMD,-0.1224998611415575,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-04,AMZN,-0.029825949313549,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-04,BAC,-0.0239979835023314,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-04,CRM,-0.1070455611171594,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-04,CSCO,-0.0510153163274097,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-04,DIS,-0.092023571291259,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-04,GOOGL,0.0785132890907962,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-04,HD,-0.1287280018176663,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-04,INTC,-0.3101652395080146,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-04,JNJ,-0.0859726508526183,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-04,JPM,-0.0371519973044269,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-04,KO,0.009643644889131,UP,DOWN,"{""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-04,MA,-0.0617667192094453,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-04,MCD,-0.0316010388683093,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-04,META,-0.1141108296511346,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-04,MSFT,-0.0746103475942748,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-04,NFLX,-0.093343032180811,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-04,NKE,-0.0183016281329198,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-04,NVDA,-0.0437603042304184,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-04,ORCL,-0.0914968786143399,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-04,PEP,0.0051426986186837,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-04,PFE,-0.076756629737444,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-04,PG,0.012350055109229,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-04,TSLA,0.0426076897390432,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-04,UNH,-0.022235664196443,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-04,V,-0.0375162503338651,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-04,WMT,-0.0136280668574917,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-04,XOM,0.01746389095499,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-05,AAPL,0.1302223517838159,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-05,ADBE,-0.039042364001666,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-05,AMD,0.0537946000189601,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-05,AMZN,0.0082285853794643,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-05,BAC,0.080519160278816,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-05,CRM,-0.1282813434918931,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-05,CSCO,-0.0102170763386058,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-05,DIS,-0.0647164266518431,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-05,GOOGL,0.0597125459692333,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-05,HD,0.0089102609295836,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-05,INTC,0.0165837262141543,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-05,JNJ,0.0225852299568432,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-05,JPM,0.0567956387240478,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-05,KO,0.0187793722768843,UP,DOWN,"{""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-05,MA,-0.0091532814723132,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-05,MCD,-0.0518240717877712,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-05,META,0.0852218896576653,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-05,MSFT,0.0681911568149522,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-05,NFLX,0.1652259829215674,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-05,NKE,0.0302405130353065,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-05,NVDA,0.2688710673211081,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-05,ORCL,0.0302418475726102,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-05,PEP,-0.0171112051731856,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-05,PFE,0.1355275117194205,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-05,PG,0.0082106595520257,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-05,TSLA,-0.028371873542535,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-05,UNH,0.0241266143721943,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-05,V,0.0162105985081288,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-05,WMT,0.1118387341948894,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-05,XOM,-0.0004866775600057,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-06,AAPL,0.0955526015738366,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-06,ADBE,0.2490780776808068,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-06,AMD,-0.0281005833081458,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-06,AMZN,0.0952731655293201,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-06,BAC,0.0005469972305804,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-06,CRM,0.0966557484252765,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-06,CSCO,0.0217204824079422,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-06,DIS,-0.0444616275070975,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-06,GOOGL,0.0571538791255894,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-06,HD,0.0279809852264103,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-06,INTC,0.0038897287381312,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-06,JNJ,-0.0034772284414602,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-06,JPM,-0.0018261101316719,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-06,KO,0.0192894141233392,UP,DOWN,"{""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-06,MA,-0.0132195392922515,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-06,MCD,-0.0092528042848105,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-06,META,0.0811657933391525,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-06,MSFT,0.0766506909152171,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-06,NFLX,0.0518374780406101,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-06,NKE,-0.2039501746846519,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-06,NVDA,0.1269430579748984,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-06,ORCL,0.20488084446616,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-06,PEP,-0.0385744012647846,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-06,PFE,-0.023726365919684,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-06,PG,0.0023095104369588,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-06,TSLA,0.1111859998212609,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-06,UNH,0.0324008095953196,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-06,V,-0.0366661589445242,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-06,WMT,0.0296531048540205,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-06,XOM,-0.0182499593888246,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-07,AAPL,0.0544107896096046,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-07,ADBE,-0.0070021128400048,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-07,AMD,-0.1093028188920751,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-07,AMZN,-0.0324450415133813,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-07,BAC,0.0135779362824624,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-07,CRM,0.0081790259924452,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-07,CSCO,0.0285219622417085,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-07,DIS,-0.0520470091519558,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-07,GOOGL,-0.0582487613224453,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-07,HD,0.069486289668905,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-07,INTC,-0.0074265350905735,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-07,JNJ,0.0799808348818476,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-07,JPM,0.0579412182940324,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-07,KO,0.0485467231118235,UP,DOWN,"{""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-07,MA,0.052672105472147,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-07,MCD,0.0414379173385912,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-07,META,-0.0582880251349366,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-07,MSFT,-0.0639892084176454,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-07,NFLX,-0.0689455895784061,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-07,NKE,-0.0067666056251066,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-07,NVDA,-0.0527765120490425,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-07,ORCL,-0.0096052742302013,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-07,PEP,0.0469292434914108,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-07,PFE,0.1068981045389316,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-07,PG,-0.019361670419549,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-07,TSLA,0.1727814918018324,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-07,UNH,0.1313669069921514,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-07,V,0.0121920500666987,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-07,WMT,0.0137351975237913,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-07,XOM,0.0301423036750054,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-08,AAPL,0.0323533453207294,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-08,ADBE,0.0412579492852254,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-08,AMD,0.0282392161662903,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-08,AMZN,-0.0453524222981363,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-08,BAC,0.0109156394038383,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-08,CRM,-0.0227975160745417,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-08,CSCO,0.04313726985449,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-08,DIS,-0.035329339371303,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-08,GOOGL,-0.0475689976498041,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-08,HD,0.0070031274449624,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-08,INTC,-0.2784705857376388,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-08,JNJ,0.0587198681341458,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-08,JPM,0.0563909774436091,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-08,KO,0.0858555451985012,UP,DOWN,"{""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-08,MA,0.0423325333749922,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-08,MCD,0.0876410422510041,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-08,META,0.097887749444079,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-08,MSFT,-0.0010950166535174,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-08,NFLX,0.1161773399876078,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-08,NKE,0.1130108852808311,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-08,NVDA,0.020081995641779,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2024-08,ORCL,0.0131945927726671,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-08,PEP,0.0012161819757749,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-08,PFE,-0.0500983273092434,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-08,PG,0.0670563670389661,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-08,TSLA,-0.0773904690267698,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-08,UNH,0.0243684645289286,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-08,V,0.0423614165882406,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-08,WMT,0.1283527130771105,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-08,XOM,0.0025257134891687,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-09,AAPL,0.0174672976134699,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-09,ADBE,-0.0985880233548925,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-09,AMD,0.1044696050586542,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-09,AMZN,0.0438655564764969,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-09,BAC,-0.0199094037668648,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-09,CRM,0.083984767297365,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-09,CSCO,0.0530272919294516,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-09,DIS,0.0642841649405134,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-09,GOOGL,0.0164651036990284,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-09,HD,0.0995928787653308,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-09,INTC,0.0644282264046964,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-09,JNJ,-0.022910991270394,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-09,JPM,-0.0620107028123226,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-09,KO,-0.0016193497896426,DOWN,DOWN,"{""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-09,MA,0.0216410248730869,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-09,MCD,0.0610476261805084,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-09,META,0.0991273370687113,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-09,MSFT,0.0315480277345658,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-09,NFLX,0.0112925043526219,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-09,NKE,0.0657022987501092,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-09,NVDA,0.0174281521098151,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-09,ORCL,0.2060303266630037,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-09,PEP,-0.0088797045416864,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-09,PFE,-0.002412934885093,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-09,PG,0.0096770719881738,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-09,TSLA,0.2219420117556316,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-09,UNH,-0.0058401875791921,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-09,V,-0.0051378751336504,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-09,WMT,0.0455784142040214,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-09,XOM,-0.006104775951074,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-10,AAPL,-0.0304290813883528,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-10,ADBE,-0.0766735688483785,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-10,AMD,-0.121952671157569,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-10,AMZN,0.0003756349741956,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-10,BAC,0.0539315951140659,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-10,CRM,0.0645206685211938,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-10,CSCO,0.0369892849281559,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-10,DIS,0.0001038919465317,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-10,GOOGL,0.0317153529584366,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-10,HD,-0.0282576053148029,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-10,INTC,-0.0826938918336531,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-10,JNJ,-0.0135751818649579,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-10,JPM,0.0589012541943008,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-10,KO,-0.0911494678083111,DOWN,DOWN,"{""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-10,MA,0.0130705697640658,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-10,MCD,-0.0407213048877537,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-10,META,-0.0084899395268351,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-10,MSFT,-0.0556587676960312,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-10,NFLX,0.0659268648650508,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-10,NKE,-0.1274889437486729,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-10,NVDA,0.0932147251352271,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-10,ORCL,-0.012808715514926,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-10,PEP,-0.023346094455579,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-10,PFE,-0.0221147061833774,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-10,PG,-0.0406973916851741,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-10,TSLA,-0.0450254120683646,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-10,UNH,-0.0345144554246863,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-10,V,0.054191482882177,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-10,WMT,0.0148604813751167,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-10,XOM,-0.003753522700832,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-11,AAPL,0.051706881775664,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-11,ADBE,0.0791708650573146,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-11,AMD,-0.0478240737014196,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-11,AMZN,0.1152897328156477,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-11,BAC,0.1360592192982397,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-11,CRM,0.1325461717634124,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-11,CSCO,0.0810662521013638,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-11,DIS,0.2211019469357209,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-11,GOOGL,-0.0126234007694913,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-11,HD,0.0955931018547529,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-11,INTC,0.1175649965371696,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-11,JNJ,-0.0225588000559806,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-11,JPM,0.1252704475215871,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-11,KO,-0.0113914314392785,DOWN,DOWN,"{""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-11,MA,0.0667550687163527,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-11,MCD,0.0133510194753725,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-11,META,0.0118748825597938,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-11,MSFT,0.0441923869380163,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-11,NFLX,0.1729825996151546,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-11,NKE,0.021263073481381,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-11,NVDA,0.0413528393011817,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-11,ORCL,0.1012868463429932,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-11,PEP,-0.0158358876021753,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-11,PFE,-0.0594661991724067,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-11,PG,0.0852402340650961,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-11,TSLA,0.3814688622385134,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-11,UNH,0.0809565765402653,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-11,V,0.0891117086839763,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-11,WMT,0.1287369610909741,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-11,XOM,0.0184046485835942,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-12,AAPL,0.0551551688397036,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-12,ADBE,-0.1381001318230682,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-12,AMD,-0.1194780043398231,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-12,AMZN,0.0553177162622697,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-12,BAC,-0.069785620369737,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-12,CRM,0.0143080228609346,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-12,CSCO,-0.0001688845809522,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-12,DIS,-0.0478982617536284,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-12,GOOGL,0.1217337944600402,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-12,HD,-0.093538126994411,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-12,INTC,-0.1663201715963501,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-12,JNJ,-0.0670278332991443,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-12,JPM,-0.0400848866449239,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-12,KO,-0.0284019713735488,DOWN,UP,"{""answer"": ""UP""}",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-12,MA,-0.011952902018778,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-12,MCD,-0.0147836453137146,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-12,META,0.0203064614006189,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-12,MSFT,-0.004628532723784,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-12,NFLX,0.0050856894888637,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-12,NKE,-0.0344519611892836,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-12,NVDA,-0.0285769113376934,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-12,ORCL,-0.0984634941620111,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2024-12,PEP,-0.0617634046691919,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-12,PFE,0.0122090750242667,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-12,PG,-0.0647662070031748,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-12,TSLA,0.1700080891563131,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-12,UNH,-0.1678135130881812,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-12,V,0.0030469453318147,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2024-12,WMT,-0.0210791550465891,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2024-12,XOM,-0.0880808081913481,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-01,AAPL,-0.0575831156925218,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-01,ADBE,-0.0162588391378818,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-01,AMD,-0.0400695747214203,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-01,AMZN,0.083367488659539,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-01,BAC,0.0534696886835159,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-01,CRM,0.0220441035630689,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-01,CSCO,0.0306241686044996,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-01,DIS,0.0153569969879494,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-01,GOOGL,0.0777603537920439,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-01,HD,0.0591018513969563,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-01,INTC,-0.0309226411709161,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-01,JNJ,0.0520674840220158,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-01,JPM,0.1208563016123731,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-01,KO,0.0195951501665745,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-01,MA,0.0563623229503966,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-01,MCD,-0.004105055502222,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-01,META,0.1770591511872099,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-01,MSFT,-0.015278764792312,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-01,NFLX,0.0958578103881719,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-01,NKE,0.0162548011899823,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-01,NVDA,-0.1058901224691788,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-01,ORCL,0.0230316094808575,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-01,PEP,-0.0090095127714249,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-01,PFE,0.0161489780826784,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-01,PG,-0.0038643017364146,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-01,TSLA,0.0018819576379678,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-01,UNH,0.0724114409941873,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-01,V,0.081508502009082,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-01,WMT,0.0864416728838606,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-01,XOM,-0.006879198620125,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-02,AAPL,0.025872375011112,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-02,ADBE,0.0025373992926926,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-02,AMD,-0.1387666818574637,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-02,AMZN,-0.1068663525715117,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-02,BAC,-0.004319632783677,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-02,CRM,-0.1283289859651768,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-02,CSCO,0.0579207502987195,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-02,DIS,0.0065452756954356,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-02,GOOGL,-0.1653760021714279,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-02,HD,-0.0373318853508125,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-02,INTC,0.2213072140773517,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-02,JNJ,0.0932692178436762,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-02,JPM,-0.0099139359374296,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-02,KO,0.1217707941592178,UP,DOWN,"{""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-02,MA,0.0375925861960004,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-02,MCD,0.0679943578565545,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-02,META,-0.0304419794626016,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-02,MSFT,-0.0416180616873402,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-02,NFLX,0.0038903849838498,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-02,NKE,0.0328998157611986,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-02,NVDA,0.0403929926528889,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-02,ORCL,-0.023521125225201,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-02,PEP,0.0184483718386521,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-02,PFE,-0.0033938111934812,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-02,PG,0.0472919156096656,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-02,TSLA,-0.2758773935575025,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-02,UNH,-0.1244816226744437,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-02,V,0.0629617367407435,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-02,WMT,0.0045843142113739,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-02,XOM,0.0514444285679329,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-03,AAPL,-0.081500097414117,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-03,ADBE,-0.1254788377545642,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-03,AMD,0.0288403488465374,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-03,AMZN,-0.1037309421475675,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-03,BAC,-0.0890815506244588,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-03,CRM,-0.0990095020970113,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-03,CSCO,-0.0374357084612968,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-03,DIS,-0.1326889223618857,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-03,GOOGL,-0.0908027714640051,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-03,HD,-0.0700561214146129,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-03,INTC,-0.0429835852271384,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-03,JNJ,0.0049691203497528,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-03,JPM,-0.0731153072775121,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-03,KO,0.0131796405744746,UP,DOWN,"{""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-03,MA,-0.0489147683707754,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-03,MCD,0.0189524060915047,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-03,META,-0.1366765172132238,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-03,MSFT,-0.0544093231482533,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-03,NFLX,-0.0489822286832742,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-03,NKE,-0.1967607555552954,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-03,NVDA,-0.132324937470998,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-03,ORCL,-0.1580754685545188,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-03,PEP,-0.0143631381742054,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-03,PFE,-0.0412409355764443,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-03,PG,-0.0196731819189186,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-03,TSLA,-0.1154345213189201,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-03,UNH,0.1074370583020336,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-03,V,-0.0337735745490396,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-03,WMT,-0.1072803639081451,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-03,XOM,0.0682655493388144,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-04,AAPL,-0.0433530865631038,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-04,ADBE,-0.0222928788365492,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-04,AMD,-0.0524625219166875,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-04,AMZN,-0.0306948202801551,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-04,BAC,-0.0443322809506648,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-04,CRM,0.0028773474606518,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-04,CSCO,-0.0582492964145866,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-04,DIS,-0.0785208446933865,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-04,GOOGL,0.0269012799204517,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-04,HD,-0.0163714494191619,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-04,INTC,-0.1149272923039192,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-04,JNJ,-0.0574650436095207,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-04,JPM,0.0033702367700347,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-04,KO,0.0129852243340251,UP,DOWN,"{""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-04,MA,0.0014762851232508,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-04,MCD,0.0233054826312584,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-04,META,-0.0474701997748356,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-04,MSFT,0.0529314061392709,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-04,NFLX,0.2136016972136711,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-04,NKE,-0.1115311807149486,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-04,NVDA,0.0049824814622203,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-04,ORCL,0.0101243825332282,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-04,PEP,-0.0957716054454007,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-04,PFE,-0.0367007241562122,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-04,PG,-0.0401164499734245,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-04,TSLA,0.0887482623668549,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-04,UNH,-0.2144343419114029,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-04,V,-0.0141526824727031,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-04,WMT,0.10775718981499,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-04,XOM,-0.1118305214092286,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-05,AAPL,-0.0535840474118514,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-05,ADBE,0.1069656626390811,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-05,AMD,0.1374422711097356,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-05,AMZN,0.1116473080052216,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-05,BAC,0.1065694017780489,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-05,CRM,-0.0124295913517449,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-05,CSCO,0.0919797986898465,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-05,DIS,0.2428807038336899,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-05,GOOGL,0.081486192676081,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-05,HD,0.0216371151816838,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-05,INTC,-0.0273632404960663,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-05,JNJ,0.001475260409272,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-05,JPM,0.0792249898811383,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-05,KO,-0.006202814289929,DOWN,DOWN,"{""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-05,MA,0.0684962234738781,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-05,MCD,-0.01814459279725,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-05,META,0.1793989258753445,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-05,MSFT,0.1668400174072004,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-05,NFLX,0.0667214743745314,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-05,NKE,0.0742908056376694,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-05,NVDA,0.2406354069759602,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-05,ORCL,0.1763078303807628,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-05,PEP,-0.0304617518268855,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-05,PFE,-0.0193313871718561,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-05,PG,0.0450267448868066,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-05,TSLA,0.2278848417863253,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-05,UNH,-0.2662112746000271,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-05,V,0.0587452098157434,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-05,WMT,0.0175699527560808,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-05,XOM,-0.0226052458178444,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-06,AAPL,0.0215085291956376,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-06,ADBE,-0.0679611450624184,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-06,AMD,0.28149543569574,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-06,AMZN,0.0701429455544568,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-06,BAC,0.078605519772916,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-06,CRM,0.0292135357049476,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-06,CSCO,0.1005708427206482,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-06,DIS,0.1017235925758859,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-06,GOOGL,0.0273861789554099,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-06,HD,0.0017065739570709,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-06,INTC,0.1457800763524859,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-06,JNJ,-0.0158494342229138,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-06,JPM,0.0981438851830833,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-06,KO,-0.011747088032275,DOWN,DOWN,"{""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-06,MA,-0.0404029174503253,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-06,MCD,-0.0637977849657125,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-06,META,0.1408019618540998,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-06,MSFT,0.0804805756925326,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-06,NFLX,0.1092583423100148,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-06,NKE,0.180262462673165,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-06,NVDA,0.1692516823827925,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-06,ORCL,0.3207878923540996,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-06,PEP,0.0155100913466237,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-06,PFE,0.0319285380036526,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-06,PG,-0.0622167005868061,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-06,TSLA,-0.0831264460638392,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-06,UNH,0.0406565422325035,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-06,V,-0.0277663462452879,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-06,WMT,-0.0095218581145183,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-06,XOM,0.0537633725672501,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-07,AAPL,0.0116977012852292,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-07,ADBE,-0.0754497572192908,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-07,AMD,0.2424947508257919,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-07,AMZN,0.0670951331494358,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-07,BAC,-0.0010567473492109,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-07,CRM,-0.0526605517656344,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-07,CSCO,-0.0128362139499728,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-07,DIS,-0.0395129043802505,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-07,GOOGL,0.0889179884259105,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-07,HD,0.0023729271964036,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-07,INTC,-0.116071447578012,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-07,JNJ,0.0784943361036389,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-07,JPM,0.0267572311138666,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-07,KO,-0.0404240926610605,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-07,MA,0.009425323060064,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-07,MCD,0.0270390305422922,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-07,META,0.0478937934915699,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-07,MSFT,0.0725559942972529,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-07,NFLX,-0.1342139500795454,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-07,NKE,0.0513796540365929,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-07,NVDA,0.1258305979143172,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-07,ORCL,0.163194467124947,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-07,PEP,0.0445320022389972,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-07,PFE,-0.0226124373159222,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-07,PG,-0.0490897736785257,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-07,TSLA,-0.0295599525914049,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-07,UNH,-0.2000513084099304,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-07,V,-0.0269819628132904,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-07,WMT,0.0020455694221874,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-07,XOM,0.0356214310873133,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-08,AAPL,0.1196389123908487,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-08,ADBE,-0.0027677324711841,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-08,AMD,-0.0775905669854877,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-08,AMZN,-0.0218273486695536,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-08,BAC,0.0734082563382199,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-08,CRM,-0.0080515721662679,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-08,CSCO,0.0148353368894353,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-08,DIS,-0.0061288639157369,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-08,GOOGL,0.1094841447379286,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-08,HD,0.1068270097443817,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-08,INTC,0.2297980464510693,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-08,JNJ,0.0833460938834937,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-08,JPM,0.0174859082208753,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-08,KO,0.0162027166465397,UP,DOWN,"{""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-08,MA,0.0508764435742419,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-08,MCD,0.0448895595643146,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-08,META,-0.0449161111169656,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-08,MSFT,-0.0486919181491771,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-08,NFLX,0.042133814075989,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-08,NKE,0.0358814915159031,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-08,NVDA,-0.0207453821347805,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-08,ORCL,-0.1089175104600429,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-08,PEP,0.0777987972921636,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-08,PFE,0.0631171711422944,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-08,PG,0.0436630258715982,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-08,TSLA,0.0830441074897507,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-08,UNH,0.2416653385835097,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-08,V,0.0200566078178587,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-08,WMT,-0.0078944327889827,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-08,XOM,0.0332634402378546,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-09,AAPL,0.0968812541089298,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-09,ADBE,-0.0110737652701246,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-09,AMD,-0.0051651698423361,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-09,AMZN,-0.041179007317822,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-09,BAC,0.0224073756794462,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-09,CRM,-0.0735115073555,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-09,CSCO,-0.0096975557475089,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-09,DIS,-0.0327757789543408,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-09,GOOGL,0.1428182966261622,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-09,HD,0.0017670311936286,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-09,INTC,0.3778233557068848,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-09,JNJ,0.0465655263613751,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-09,JPM,0.0464797999463881,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-09,KO,-0.0313287733744035,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-09,MA,-0.0444824314709472,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-09,MCD,-0.0252750428116576,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-09,META,-0.0051772008039615,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-09,MSFT,0.0222226783332029,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-09,NFLX,-0.0077219009376531,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-09,NKE,-0.0940625323808068,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-09,NVDA,0.0712511029990332,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-09,ORCL,0.2437093357286222,UP,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-09,PEP,-0.0459884042671485,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-09,PFE,0.0290790505978135,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-09,PG,-0.021586811700328,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-09,TSLA,0.3320154782540658,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-09,UNH,0.1213684021172807,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-09,V,-0.029563987068532,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-09,WMT,0.0626933274458314,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-09,XOM,-0.0134744607914587,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-10,AAPL,0.0618150493780349,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-10,ADBE,-0.0352657758792522,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-10,AMD,0.5830397783886911,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-10,AMZN,0.1122648498166054,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-10,BAC,0.0360534699759071,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-10,CRM,0.0987764163502289,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-10,CSCO,0.0749995801002481,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-10,DIS,-0.0164192037722433,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-10,GOOGL,0.156684472089793,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-10,HD,-0.0631802735906595,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-10,INTC,0.1919523871193531,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-10,JNJ,0.0186062221797369,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-10,JPM,-0.0088685296808576,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-10,KO,0.0389021958303621,UP,DOWN,"{""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-10,MA,-0.0282893491860094,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-10,MCD,-0.0179672434559479,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-10,META,-0.1171463963441817,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-10,MSFT,-0.0002704102084843,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-10,NFLX,-0.0667767392171451,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-10,NKE,-0.0737129345005231,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-10,NVDA,0.0852716756068501,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-10,ORCL,-0.0646219758603069,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-10,PEP,0.0402308031203799,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-10,PFE,-0.0325744570576694,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-10,PG,-0.0145035484230088,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-10,TSLA,0.026623485126352,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-10,UNH,-0.0108310982713504,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-10,V,-0.0018747320363184,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-10,WMT,-0.0182418763559127,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-10,XOM,0.0142793015820716,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-11,AAPL,0.0323643345205784,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-11,ADBE,-0.0592988534587695,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-11,AMD,-0.1506715487802262,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-11,AMZN,-0.0450413559291534,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-11,BAC,0.0037418471684855,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-11,CRM,-0.1147037227051437,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-11,CSCO,0.0523868224578392,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-11,DIS,-0.072367298384888,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-11,GOOGL,0.1386606550024189,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-11,HD,-0.0597223100621575,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-11,INTC,0.0142535551612927,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-11,JNJ,0.1025245130354528,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-11,JPM,0.0062998512018577,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-11,KO,0.0612482525296687,UP,DOWN,"{""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-11,MA,-0.0026449915646936,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-11,MCD,0.0448683402040206,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-11,META,-0.0006169086820239,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-11,MSFT,-0.0480467441814587,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-11,NFLX,-0.0384855986878254,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-11,NKE,0.0006192872565555,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-11,NVDA,-0.1258827644807442,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-11,ORCL,-0.2309888643927538,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-11,PEP,0.0181394606274467,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-11,PFE,0.0626062632346451,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-11,PG,-0.0146970802518402,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-11,TSLA,-0.0578017878744897,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-11,UNH,-0.0345180544355976,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-11,V,-0.016544969156653,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-11,WMT,0.0922119439397564,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-11,XOM,0.0225069364746741,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-12,AAPL,-0.0250672890462201,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-12,ADBE,0.0932745600103717,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-12,AMD,-0.0154920936702925,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-12,AMZN,-0.0102906864073514,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-12,BAC,0.0304905524456455,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-12,CRM,0.1509394391706411,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-12,CSCO,0.0011696357666759,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-12,DIS,0.0963889769495311,UP,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-12,GOOGL,-0.0217854861662979,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-12,HD,-0.0296829323534625,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-12,INTC,-0.0902366795732467,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-12,JNJ,0.0001449867623715,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-12,JPM,0.0291937936760624,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-12,KO,-0.0371850177215608,DOWN,DOWN,"{""answer"": ""DOWN"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-12,MA,0.0369642876270659,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-12,MCD,-0.0139695814917851,DOWN,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-12,META,0.0195668765728194,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-12,MSFT,-0.0170525388427748,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-12,NFLX,-0.128462534482267,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-12,NKE,-0.0079414934236499,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-12,NVDA,0.053730997368077,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-12,ORCL,-0.0348601975781019,DOWN,UP,"{ ""answer"": ""UP"" }",DOWN,"{ ""answer"": ""DOWN"" }"
+2025-12,PEP,-0.0256570399439467,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-12,PFE,-0.0326340840392712,DOWN,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-12,PG,-0.0327348920033558,DOWN,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-12,TSLA,0.0454471190057812,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
+2025-12,UNH,0.0077613384392178,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-12,V,0.0486483886377915,UP,UP,"{""answer"": ""UP""}",UP,"{ ""answer"": ""UP"" }"
+2025-12,WMT,0.0101991599733497,UP,DOWN,"{ ""answer"": ""DOWN"" }",UP,"{ ""answer"": ""UP"" }"
+2025-12,XOM,0.0381298203478319,UP,UP,"{ ""answer"": ""UP"" }",UP,"{ ""answer"": ""UP"" }"
